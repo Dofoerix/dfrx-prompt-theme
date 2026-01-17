@@ -21,7 +21,7 @@
       "alignment": "left",
       "segments": [
         {
-          "properties": {
+          "options": {
             "style": "agnoster",
             "home_icon": "󰉌",
             "folder_icon": "󰉋",
@@ -44,7 +44,7 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "always_enabled": true
           },
           "leading_diamond": " ",
@@ -55,7 +55,7 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "always_enabled": true
           },
           "template": " {{if .Error}}󰋔{{else}}󰋑{{end}} ",
@@ -84,7 +84,7 @@
           "style": "diamond"
         },
         {
-          "properties": {
+          "options": {
             "time_format": "04:05"
           },
           "leading_diamond": "",
