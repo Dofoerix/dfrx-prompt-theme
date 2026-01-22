@@ -104,6 +104,6 @@ More info about transient prompt can be found [here](https://ohmyposh.dev/docs/c
 
 4. Set the theme using [this](https://ohmyposh.dev/docs/installation/customize#config-syntax) guide
 
-   Replace `~/jandedobbeleer.omp.json` in the command with a path to any variant of this theme (e.g. `~/any-folder/dfrx-prompt-theme/gray/full_no_tr.omp.json`)
+   Replace `~/jandedobbeleer.omp.json` in the command with a path to any variant of this theme (e.g. `~/dfrx-prompt-theme/gray/full_no_tr.omp.json`)
 
-   You can also use the URL of the raw file on GitHub instead of the path (e.g. `https://raw.githubusercontent.com/Dofoerix/dfrx-prompt-theme/main/gray/full_no_tr.omp.json`)
+   You can also use the URL of the raw file on GitHub instead of the path (e.g. `https://raw.githubusercontent.com/Dofoerix/dfrx-prompt-theme/outdated/gray/full_no_tr.omp.json`)
