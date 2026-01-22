@@ -1,0 +1,109 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "secondary_prompt": {
+    "template": "❯ ",
+    "foreground": "p:background",
+    "background": "transparent"
+  },
+  "palette": {
+    "text": "#111111",
+    "background": "#f1f1f1"
+  },
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "options": {
+            "style": "agnoster",
+            "home_icon": "󰉌",
+            "folder_icon": "󰉋",
+            "folder_separator_template": " 󰅂 "
+          },
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
+          "foreground": "p:text",
+          "background": "p:background",
+          "type": "path",
+          "template": " {{if eq .Path \"󰉌\"}}󰉌 {{.UserName}}{{else}}{{.Path}}{{end}} "
+        },
+        {
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "foreground": "p:text",
+          "background": "p:background",
+          "type": "python",
+          "template": "  {{if .Error}}{{.Error}}{{else}}{{if .Venv}}{{.Venv}}{{end}}{{end}} "
+        }
+      ],
+      "newline": true
+    },
+    {
+      "type": "prompt",
+      "alignment": "right",
+      "segments": [
+        {
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": " ",
+          "foreground": "p:text",
+          "background": "p:background",
+          "template": "   ",
+          "type": "root"
+        },
+        {
+          "options": {
+            "always_enabled": true
+          },
+          "style": "diamond",
+          "leading_diamond": "",
+          "foreground": "p:text",
+          "background": "p:background",
+          "type": "status",
+          "template": " {{if .Error}}󰋔{{else}}󰋑{{end}} "
+        },
+        {
+          "options": {
+            "always_enabled": true
+          },
+          "style": "diamond",
+          "trailing_diamond": " ",
+          "foreground": "p:text",
+          "background": "p:background",
+          "type": "executiontime",
+          "template": "{{.FormattedMs}} "
+        },
+        {
+          "options": {
+            "time_format": "15:04:05"
+          },
+          "style": "diamond",
+          "leading_diamond": "",
+          "trailing_diamond": "",
+          "foreground": "p:text",
+          "background": "p:background",
+          "type": "time",
+          "template": " 󰥔 {{.CurrentDate | date .Format}} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "template": "❱",
+          "foreground": "p:background",
+          "type": "text",
+          "style": "plain"
+        }
+      ],
+      "newline": true
+    }
+  ],
+  "version": 4,
+  "final_space": true
+}
