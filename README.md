@@ -29,11 +29,11 @@ Name of the folder with configuration files.
 
 #### Other
 
-Other theme variants can be found on [other-themes](https://github.com/Dofoerix/Dfrx-Prompt-Theme/tree/other-themes) branch (outdated).
+Other theme variants can be found on [other-themes](https://github.com/Dofoerix/dfrx-prompt-theme/tree/other-themes) branch (very outdated).
 
 ### By segments
 
-`light`/`standard`/`full` in the name of the config file (full and standard variants are [outdated](https://github.com/Dofoerix/Dfrx-Prompt-Theme/tree/outdated)).
+`light`/`standard`/`full` in the name of the config file (full and standard variants are very outdated).
 
 #### Light
 
@@ -43,7 +43,7 @@ Other theme variants can be found on [other-themes](https://github.com/Dofoerix/
 
 <summary>Segments list</summary>
 
-- Current folder
+- Path
 - Python virtual environment name (displayed if venv is activated)
 - Execution time
 - Exit (broken heart if exit code ≠ 0)
@@ -52,7 +52,7 @@ Other theme variants can be found on [other-themes](https://github.com/Dofoerix/
 
 </details>
 
-#### Standard
+#### Standard (very outdated)
 
 ![standard](./screenshots/standard.png)
 
@@ -60,7 +60,7 @@ Other theme variants can be found on [other-themes](https://github.com/Dofoerix/
 
 <summary>Segments list</summary>
 
-- Current folder 
+- Current folder
 - Git (displayed in the git repo)
 - Execution time
 - Exit (broken heart if exit code ≠ 0)
@@ -69,7 +69,7 @@ Other theme variants can be found on [other-themes](https://github.com/Dofoerix/
 
 </details>
 
-#### Full
+#### Full (very outdated)
 
 ![full](./screenshots/full.png)
 
@@ -78,17 +78,15 @@ Other theme variants can be found on [other-themes](https://github.com/Dofoerix/
 <summary>Segments list</summary>
 
 - Current user
-- Current folder 
+- Current folder
 - Git (displayed in the git repo)
-- Language version (displayed in directory with Python file)[^1]
+- Python version (displayed in the directories with Python files)
 - Execution time
 - Exit (broken heart if exit code ≠ 0)
 - Root (displayed if the current user is root)
 - Time
 
 </details>
-
-[^1]: At the moment this segment is only displayed with Python files
 
 ### By transient prompt
 
@@ -106,6 +104,6 @@ More info about transient prompt can be found [here](https://ohmyposh.dev/docs/c
 
 4. Set the theme using [this](https://ohmyposh.dev/docs/installation/customize#config-syntax) guide
 
-   Replace `~/jandedobbeleer.omp.json` in the command with a path to any variant of this theme (e.g. `~/any-folder/Dfrx-Prompt-Theme/gray/full_no_tr.omp.json`)
+   Replace `~/jandedobbeleer.omp.json` in the command with a path to any variant of this theme (e.g. `~/any-folder/dfrx-prompt-theme/gray/full_no_tr.omp.json`)
 
-   You can also use the URL of the raw file on GitHub instead of the path (e.g. `https://raw.githubusercontent.com/Dofoerix/Dfrx-Prompt-Theme/main/gray/full_no_tr.omp.json`)
+   You can also use the URL of the raw file on GitHub instead of the path (e.g. `https://raw.githubusercontent.com/Dofoerix/dfrx-prompt-theme/main/gray/full_no_tr.omp.json`)
